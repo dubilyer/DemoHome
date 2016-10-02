@@ -33,5 +33,24 @@
         </dependency>
 
     </dependencies>
+    <plugins>
+        <plugin>
+            <groupId>org.codegaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.2.1</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>
+                            java
+                        </goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <mainClass>Account.api.Controller</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
 
 </project>

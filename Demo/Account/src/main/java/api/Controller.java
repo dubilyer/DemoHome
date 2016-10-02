@@ -13,7 +13,7 @@ public class Controller {
     public static void main(String[] args)
     {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
-        ctx.scan("com.sivalabs");//This will load the configured components UserService, UserRepository,
+        ctx.scan("Account");//This will load the configured components UserService, UserRepository,
         ctx.refresh();
 
         System.out.println(ctx);
