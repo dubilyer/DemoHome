@@ -33,6 +33,7 @@
         </dependency>
 
     </dependencies>
+    <build>
     <plugins>
         <plugin>
             <groupId>org.codegaus.mojo</groupId>
@@ -52,5 +53,5 @@
             </configuration>
         </plugin>
     </plugins>
-
+    </build>
 </project>
